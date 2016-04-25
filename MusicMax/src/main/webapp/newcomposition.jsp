@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Upload new musical composition</title>
+</head>
+<body>
+	<form action="/MusicMax/AddNewServlet" method="post">
+		Title: <input type="text" name="title"><br>
+		Performer: <input type="text" name="performer"><br>
+		Author: <input type="text" name="author"><br>
+		Album: <input type="text" name="album"><br>
+		Year: <input type="text" name="year"><br>
+		Genre: <input type="text" name="genre">
+		File: <input type="file" name="file"><br>
+		<input type="submit" value="Add composition">
+	</form>
+</body>
+</html>
