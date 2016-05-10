@@ -54,9 +54,6 @@ public class SearchServlet extends HttpServlet {
 			break;
 		}
 		request.setAttribute("kompozicije", kompozicije);
-		for (Tim6kompozicija k: kompozicije) {
-			request.setAttribute("kompozicija", k);
-		}
 		RequestDispatcher rd = request.getServletContext().getRequestDispatcher("/search.jsp");
 		rd.forward(request, response);
 		

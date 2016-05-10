@@ -1,2 +1,2 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Dodati JPA i Web projekat.</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Dodat servlet i jsp stranica za pretragu po raznim kriterijumima.&\#x0A;&\#x0A;Kriterijum se bira iz combo-boxa, a moguci kriterijumi su izvodjac,&\#x0A;naziv, godina, album i zanr. Rezultat pretrage se prikazuje na istoj&\#x0A;stranici.</message>\r\n<message>Dodati JPA i Web projekat.</message>\r\n</messages>
 eclipse.preferences.version=1

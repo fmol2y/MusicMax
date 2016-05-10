@@ -7,14 +7,15 @@
 <title>Upload new musical composition</title>
 </head>
 <body>
-	<form action="/MusicMax/AddNewServlet" method="post">
+	<form action="/MusicMax/AddNewCompositionServlet" method="post">
 		Title: <input type="text" name="title"><br>
 		Performer: <input type="text" name="performer"><br>
 		Author: <input type="text" name="author"><br>
 		Album: <input type="text" name="album"><br>
 		Year: <input type="text" name="year"><br>
-		Genre: <input type="text" name="genre">
+		Genre: <input type="text" name="genre"><br>
 		File: <input type="file" name="file"><br>
+		Id: <input type="text" name="id"><br>
 		<input type="submit" value="Add composition">
 	</form>
 </body>
