@@ -10,7 +10,7 @@
 <body>
 	<h2>Welcome to Music Max!</h2>
 	<div id="navigationRow">
-		<a href="">Login</a>
+		<a href="/MusicMax/login.jsp">Login</a>
 		<a href="">Register</a>
 		<a href="/MusicMax/search.jsp">Search</a>
 		<a href="/MusicMax/newcomposition.jsp">Upload nove kompozicije</a>
